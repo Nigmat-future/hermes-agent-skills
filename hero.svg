@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="roast-my-pi: data-driven advisor X-ray">
+  <title>roast-my-pi</title>
+  <desc>One wrong advisor, five years gone. A data-driven X-ray of an academic advisor's real contribution.</desc>
+
+  <style>
+    .bg{fill:#FAFAF7}
+    .ink{fill:#15120F}
+    .muted{fill:#8C867D}
+    .hair{stroke:#E5E1D9}
+    .accent{stroke:#C8462C}
+    .accentf{fill:#C8462C}
+    .grain{fill:#15120F;opacity:.03}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#0B0B0C}
+      .ink{fill:#F5F3EF}
+      .muted{fill:#797470}
+      .hair{stroke:#262529}
+      .accent{stroke:#FF6B47}
+      .accentf{fill:#FF6B47}
+      .grain{fill:#F5F3EF;opacity:.03}
+    }
+  </style>
+
+  <rect class="bg" width="1200" height="440"/>
+
+  <!-- faint editorial vertical hairlines -->
+  <line class="hair" x1="80" y1="40" x2="80" y2="400" stroke-width="1"/>
+  <line class="hair" x1="660" y1="40" x2="660" y2="400" stroke-width="1"/>
+
+  <!-- eyebrow -->
+  <circle class="accentf" cx="86" cy="86" r="4"/>
+  <text x="100" y="91" class="muted"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="14" letter-spacing="3.5">ADVISOR · X-RAY</text>
+
+  <!-- wordmark -->
+  <text x="78" y="214" class="ink"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="88" font-weight="700" letter-spacing="-3">roast-my-pi</text>
+
+  <!-- ember accent rule -->
+  <line class="accent" x1="82" y1="242" x2="232" y2="242" stroke-width="3"/>
+
+  <!-- tagline -->
+  <text x="82" y="296" class="ink"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="29" font-weight="600">选错导师，毁掉五年。</text>
+  <text x="82" y="332" class="muted"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="22">One wrong advisor, five years gone.</text>
+
+  <!-- the three lenses, mono -->
+  <text x="82" y="382" class="muted"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="13" letter-spacing="2">independence · funding · power-structure</text>
+
+  <!-- ===== right motif: author position track ===== -->
+  <text x="720" y="150" class="muted"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="13" letter-spacing="2.5">AUTHOR POSITION</text>
+
+  <!-- baseline axis -->
+  <line class="hair" x1="720" y1="250" x2="1120" y2="250" stroke-width="2"/>
+
+  <!-- minor ticks (positions 2..27) -->
+  <g class="hair" stroke-width="2">
+    <line x1="735" y1="250" x2="735" y2="242"/>
+    <line x1="749" y1="250" x2="749" y2="242"/>
+    <line x1="764" y1="250" x2="764" y2="242"/>
+    <line x1="779" y1="250" x2="779" y2="242"/>
+    <line x1="793" y1="250" x2="793" y2="242"/>
+    <line x1="808" y1="250" x2="808" y2="242"/>
+    <line x1="823" y1="250" x2="823" y2="242"/>
+    <line x1="837" y1="250" x2="837" y2="242"/>
+    <line x1="852" y1="250" x2="852" y2="242"/>
+    <line x1="867" y1="250" x2="867" y2="242"/>
+    <line x1="881" y1="250" x2="881" y2="242"/>
+    <line x1="896" y1="250" x2="896" y2="242"/>
+    <line x1="911" y1="250" x2="911" y2="242"/>
+    <line x1="925" y1="250" x2="925" y2="242"/>
+    <line x1="940" y1="250" x2="940" y2="242"/>
+    <line x1="955" y1="250" x2="955" y2="242"/>
+    <line x1="969" y1="250" x2="969" y2="242"/>
+    <line x1="984" y1="250" x2="984" y2="242"/>
+    <line x1="999" y1="250" x2="999" y2="242"/>
+    <line x1="1013" y1="250" x2="1013" y2="242"/>
+    <line x1="1028" y1="250" x2="1028" y2="242"/>
+    <line x1="1043" y1="250" x2="1043" y2="242"/>
+    <line x1="1057" y1="250" x2="1057" y2="242"/>
+    <line x1="1072" y1="250" x2="1072" y2="242"/>
+    <line x1="1087" y1="250" x2="1087" y2="242"/>
+    <line x1="1101" y1="250" x2="1101" y2="242"/>
+  </g>
+
+  <!-- position 1: solid ember, the real driver -->
+  <line class="accent" x1="720" y1="250" x2="720" y2="204" stroke-width="6"/>
+  <text x="720" y="276" class="ink"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="12" text-anchor="middle">1st</text>
+
+  <!-- position 28: targeted / roasted -->
+  <line class="accent" x1="1116" y1="250" x2="1116" y2="204" stroke-width="6"/>
+  <!-- reticle ring -->
+  <circle class="bg" cx="1116" cy="227" r="22" stroke-width="0"/>
+  <circle cx="1116" cy="227" r="22" class="accent" fill="none" stroke-width="2"/>
+  <line class="accent" x1="1086" y1="227" x2="1094" y2="227" stroke-width="1.5"/>
+  <line class="accent" x1="1138" y1="227" x2="1146" y2="227" stroke-width="1.5"/>
+  <line class="accent" x1="1116" y1="197" x2="1116" y2="205" stroke-width="1.5"/>
+  <text x="1116" y="184" class="accentf"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="12" text-anchor="middle" letter-spacing="1">roasted</text>
+  <text x="1116" y="276" class="ink"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="12" text-anchor="middle">28th</text>
+
+  <!-- divider dot between columns -->
+  <text x="1192" y="424" class="muted"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="11" text-anchor="end" letter-spacing="1">v1.0</text>
+</svg>
