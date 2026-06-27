@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="roast-my-pi: 选错导师，毁掉五年">
-  <title>roast-my-pi · 导师锐评</title>
-  <desc>墨白封面。署名位置决定真实贡献——Nature 一作不等于第 28 作者。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="roast-my-pi — one wrong advisor, five years gone">
+  <title>roast-my-pi</title>
+  <desc>Data-driven X-ray for academic advisors. Author position reveals real contribution — first author on Nature is not the same as author #28.</desc>
 
   <style>
     .bg{fill:#f4efe6}
@@ -22,90 +22,135 @@
   <!-- eyebrow -->
   <text x="88" y="88" class="muted"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="13" letter-spacing="4">ADVISOR · X-RAY</text>
+        font-size="13" letter-spacing="4">DATA-DRIVEN · ADVISOR · X-RAY</text>
 
-  <!-- title -->
-  <text x="80" y="168" class="ink"
-        font-family="Noto Serif SC, Songti SC, serif"
-        font-size="52" font-weight="500" letter-spacing="2">导师锐评</text>
-  <text x="80" y="218" class="ink"
+  <!-- title: English-first -->
+  <text x="80" y="172" class="ink"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="28" font-style="italic" letter-spacing="1">roast-my-pi</text>
+        font-size="56" font-weight="700" letter-spacing="1">roast-my-pi</text>
+  <text x="80" y="212" class="muted"
+        font-family="Noto Serif SC, Songti SC, serif"
+        font-size="22" letter-spacing="2">导师锐评</text>
 
   <!-- accent rule -->
-  <line class="accent" x1="80" y1="240" x2="180" y2="240" stroke-width="2"/>
+  <line class="accent" x1="80" y1="232" x2="200" y2="232" stroke-width="2"/>
 
-  <!-- tagline -->
-  <text x="80" y="290" class="ink"
-        font-family="Noto Serif SC, Songti SC, serif"
-        font-size="26" font-weight="500" letter-spacing="1">选错导师，<tspan class="accentf">毁掉五年。</tspan></text>
-  <text x="80" y="328" class="muted"
+  <!-- tagline: English prominent -->
+  <text x="80" y="278" class="ink"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="20" font-style="italic">One wrong advisor, five years gone.</text>
+        font-size="27" font-style="italic">One wrong advisor, <tspan class="accentf" font-style="italic">five years gone.</tspan></text>
 
   <!-- three lenses -->
-  <text x="80" y="378" class="muted"
+  <text x="80" y="328" class="muted"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="12" letter-spacing="3">independence · funding · power-structure</text>
+        font-size="12" letter-spacing="3">INDEPENDENCE · FUNDING · POWER STRUCTURE</text>
 
-  <!-- ===== right: hand-drawn author position track ===== -->
-  <text x="700" y="120" class="muted"
+  <!-- sub-tagline -->
+  <text x="80" y="370" class="muted"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="15" letter-spacing="0.5">See through titles and team glory.</text>
+  <text x="80" y="392" class="muted"
+        font-family="Noto Serif SC, Songti SC, serif"
+        font-size="13" letter-spacing="1" opacity="0.7">用数据看清导师的真实科研画像。</text>
+
+  <!-- ===== right panel: author position visualization ===== -->
+  <text x="700" y="96" class="muted"
         font-family="Cormorant Garamond, Georgia, serif"
         font-size="12" letter-spacing="3">AUTHOR POSITION</text>
 
+  <!-- "≠" equation -->
+  <text x="900" y="96" class="accentf"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="11" letter-spacing="1" text-anchor="middle">1st author ≠ 28th author</text>
+
   <!-- baseline -->
-  <line class="stroke" x1="700" y1="260" x2="1120" y2="260" stroke-width="1.2" opacity="0.35"/>
+  <line class="stroke" x1="700" y1="240" x2="1120" y2="240" stroke-width="1.2" opacity="0.35"/>
 
   <!-- faint ticks -->
   <g class="hair" stroke-width="1" opacity="0.5">
-    <line x1="730" y1="260" x2="730" y2="254"/>
-    <line x1="760" y1="260" x2="760" y2="254"/>
-    <line x1="790" y1="260" x2="790" y2="254"/>
-    <line x1="820" y1="260" x2="820" y2="254"/>
-    <line x1="850" y1="260" x2="850" y2="254"/>
-    <line x1="880" y1="260" x2="880" y2="254"/>
-    <line x1="910" y1="260" x2="910" y2="254"/>
-    <line x1="940" y1="260" x2="940" y2="254"/>
-    <line x1="970" y1="260" x2="970" y2="254"/>
-    <line x1="1000" y1="260" x2="1000" y2="254"/>
-    <line x1="1030" y1="260" x2="1030" y2="254"/>
-    <line x1="1060" y1="260" x2="1060" y2="254"/>
-    <line x1="1090" y1="260" x2="1090" y2="254"/>
+    <line x1="730" y1="240" x2="730" y2="234"/>
+    <line x1="760" y1="240" x2="760" y2="234"/>
+    <line x1="790" y1="240" x2="790" y2="234"/>
+    <line x1="820" y1="240" x2="820" y2="234"/>
+    <line x1="850" y1="240" x2="850" y2="234"/>
+    <line x1="880" y1="240" x2="880" y2="234"/>
+    <line x1="910" y1="240" x2="910" y2="234"/>
+    <line x1="940" y1="240" x2="940" y2="234"/>
+    <line x1="970" y1="240" x2="970" y2="234"/>
+    <line x1="1000" y1="240" x2="1000" y2="234"/>
+    <line x1="1030" y1="240" x2="1030" y2="234"/>
+    <line x1="1060" y1="240" x2="1060" y2="234"/>
+    <line x1="1090" y1="240" x2="1090" y2="234"/>
   </g>
 
   <!-- position 1: bold ink stroke -->
-  <path class="stroke" stroke-width="4" d="M700 260 L700 175" opacity="0.9"/>
-  <text x="700" y="284" class="ink"
+  <path class="stroke" stroke-width="4.5" d="M700 240 L700 148" opacity="0.9"/>
+  <text x="700" y="264" class="ink"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="12" text-anchor="middle">1st</text>
-  <text x="700" y="155" class="muted"
-        font-family="Noto Serif SC, Songti SC, serif"
-        font-size="11" text-anchor="middle">真本事</text>
+        font-size="12" text-anchor="middle" font-weight="700">1st</text>
+  <text x="700" y="138" class="ink"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="12" text-anchor="middle" font-weight="600">drove it</text>
+
+  <!-- position 3-5: medium stroke -->
+  <path class="stroke" stroke-width="2.5" d="M790 240 L790 178" opacity="0.55"/>
+  <text x="790" y="264" class="muted"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="11" text-anchor="middle">3rd–5th</text>
+  <text x="790" y="168" class="muted"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="11" text-anchor="middle">contributed</text>
 
   <!-- position 28: broken + accent reticle -->
-  <path class="stroke" stroke-width="1.5" stroke-dasharray="4 6" d="M1110 260 L1110 195" opacity="0.35"/>
-  <circle cx="1110" cy="218" r="20" class="accent-stroke" stroke-width="1.2" opacity="0.75"/>
-  <line class="accent" x1="1086" y1="218" x2="1096" y2="218" stroke-width="1"/>
-  <line class="accent" x1="1124" y1="218" x2="1134" y2="218" stroke-width="1"/>
-  <text x="1110" y="284" class="accentf"
+  <path class="stroke" stroke-width="1.5" stroke-dasharray="4 6" d="M1110 240 L1110 175" opacity="0.35"/>
+  <circle cx="1110" cy="198" r="20" class="accent-stroke" stroke-width="1.2" opacity="0.75"/>
+  <line class="accent" x1="1086" y1="198" x2="1096" y2="198" stroke-width="1"/>
+  <line class="accent" x1="1124" y1="198" x2="1134" y2="198" stroke-width="1"/>
+  <text x="1110" y="264" class="accentf"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="12" text-anchor="middle">28th</text>
-  <text x="1110" y="175" class="accentf"
-        font-family="Noto Serif SC, Songti SC, serif"
-        font-size="11" text-anchor="middle">递样本</text>
+        font-size="12" text-anchor="middle" font-weight="700">28th</text>
+  <text x="1110" y="158" class="accentf"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="12" text-anchor="middle">sent samples</text>
 
   <!-- independence ratio bar -->
-  <text x="700" y="340" class="muted"
+  <text x="700" y="310" class="muted"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="11" letter-spacing="2">INDEPENDENCE 0.18 / 0.30</text>
-  <line x1="700" y1="358" x2="920" y2="358" stroke="rgba(26,24,20,0.12)" stroke-width="1"/>
-  <line x1="700" y1="358" x2="756" y2="358" stroke="#8b3a3a" stroke-width="2.5" opacity="0.65"/>
-  <line x1="820" y1="352" x2="820" y2="364" stroke="#1a1814" stroke-width="1" opacity="0.3"/>
-  <text x="820" y="378" class="muted"
+        font-size="11" letter-spacing="2">INDEPENDENCE RATIO</text>
+  <text x="920" y="310" class="ink"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="9" text-anchor="middle">门槛</text>
+        font-size="11" letter-spacing="1" text-anchor="end">0.18 / 0.30</text>
 
+  <line x1="700" y1="326" x2="920" y2="326" stroke="rgba(26,24,20,0.12)" stroke-width="1"/>
+  <line x1="700" y1="326" x2="756" y2="326" stroke="#8b3a3a" stroke-width="2.5" opacity="0.65"/>
+  <line x1="832" y1="320" x2="832" y2="332" stroke="#1a1814" stroke-width="1" opacity="0.3"/>
+  <text x="832" y="348" class="muted"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="10" text-anchor="middle">threshold</text>
+
+  <!-- grant bar -->
+  <text x="700" y="378" class="muted"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="11" letter-spacing="2">GRANT LEVEL</text>
+  <text x="920" y="378" class="accentf"
+        font-family="Cormorant Garamond, Georgia, serif"
+        font-size="11" letter-spacing="1" text-anchor="end">Youth only</text>
+
+  <line x1="700" y1="392" x2="920" y2="392" stroke="rgba(26,24,20,0.12)" stroke-width="1"/>
+  <line x1="700" y1="392" x2="728" y2="392" stroke="#8b3a3a" stroke-width="2.5" opacity="0.65"/>
+  <g opacity="0.3">
+    <line x1="770" y1="386" x2="770" y2="398" stroke="#1a1814" stroke-width="1"/>
+    <text x="770" y="410" class="muted"
+          font-family="Cormorant Garamond, Georgia, serif"
+          font-size="9" text-anchor="middle">General</text>
+    <line x1="860" y1="386" x2="860" y2="398" stroke="#1a1814" stroke-width="1"/>
+    <text x="860" y="410" class="muted"
+          font-family="Cormorant Garamond, Georgia, serif"
+          font-size="9" text-anchor="middle">Key</text>
+  </g>
+
+  <!-- watermark -->
   <text x="1120" y="420" class="muted"
         font-family="Cormorant Garamond, Georgia, serif"
-        font-size="10" text-anchor="end" letter-spacing="2">墨白</text>
+        font-size="10" text-anchor="end" letter-spacing="2" opacity="0.5">roast-my-pi</text>
 </svg>
